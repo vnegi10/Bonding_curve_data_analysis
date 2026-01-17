@@ -7,21 +7,24 @@ information using DuckDB, and automates alerting via Gmail.
 ## Features
 
 1. Token Graduation Monitoring
-- Tracks tokens across different networks (e.g., Solana)
-- Identifies tokens nearing or reaching 100% graduation
-- Sends email alerts when tokens complete their graduation process
+    - Tracks tokens across different networks (e.g., Solana)
+    - Identifies tokens nearing or reaching 100% graduation
+    - Sends email alerts when tokens complete their graduation process
+
 2. New Pool Detection
-- Fetches newly created pools from an API
-- Analyzes top pools by market cap or other metrics
-- Groups tokens by network for further tracking
+    - Fetches newly created pools from an API
+    - Analyzes top pools by market cap or other metrics
+    - Groups tokens by network for further tracking
+
 3. Database Integration (DuckDB)
-- Stores token addresses and networks in a local DuckDB database
-- Enables persistent tracking of tokens across sessions
-- Supports periodic updates of token status with timestamps
+    - Stores token addresses and networks in a local DuckDB database
+    - Enables persistent tracking of tokens across sessions
+    - Supports periodic updates of token status with timestamps
+
 4. Email Notifications
-- Sends HTML-formatted email alerts via Gmail SMTP
-- Configurable thresholds for triggering alerts
-- Customizable email content and recipients
+    - Sends HTML-formatted email alerts via Gmail SMTP
+    - Configurable thresholds for triggering alerts
+    - Customizable email content and recipients
 
 ## Code structure
 
